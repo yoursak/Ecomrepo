@@ -3,11 +3,12 @@
 }
 
 body{
-   
+  background-color: rgb(255, 255, 255); 
 }
 
 .perent{
-    background-color: rgb(34, 25, 71);
+    /* padding-top: 2%; */
+    background-color: rgb(160, 186, 216);
 }
 
 .child-a{
@@ -26,7 +27,7 @@ img{
     height: 2.5rem;
     width: 2.5rem;
     border: none;
-    background-color: antiquewhite;
+    background-color: rgb(106, 184, 96);
     outline: none;
 }
 
@@ -47,7 +48,7 @@ select{
     height: 2.5rem;
     width: 6rem;
     border: none;
-    background-color: antiquewhite;
+    background-color: rgb(233, 237, 245);
 }
 
 .s0-bar{
@@ -71,7 +72,7 @@ select{
     text-decoration: none;
     font-family: 'Francois One', sans-serif;
     font-size: 15px;
-    background-color: rgb(226, 193, 193);
+    background-color: rgb(134, 221, 99);
 }
 
 .acc h3{
@@ -81,10 +82,10 @@ select{
 
 
 #cart-i{
-    color: rgb(214, 192, 192);
+    color: rgb(29, 30, 41);
     padding: 10px;
     font-size:20px;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 .Cart{
@@ -99,11 +100,11 @@ select{
 
 .Cart a{
     text-decoration: none;
-    color: rgb(214, 192, 192);
+    color: rgb(29, 30, 41);
 }
 .order a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(29, 30, 41);
     font-size:20px;   
 }
 
@@ -112,10 +113,103 @@ select{
 }
 
 #shop{
-    color: rgb(214, 192, 192);
+    color: rgb(29, 30, 41);
     padding: 10px;
     font-size:20px;
     margin-left: 3rem;
 }
+/* section two  */
+#nav-b{
+    padding: 2px;
+    margin-top: 5px;
+}
+.child-a1{
+    background-color: rgb(145, 157, 172);
+    padding-top: 5px;
+}
+
+.col-1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.col-1 a{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+h6{
+    font-style: bold;
+    margin-top: 5px;
+}
 
 
+/* section three */
+
+
+.slideshow{
+    width: 80%;
+    margin: 2% 10% 2% 10%;
+}
+
+   /* Section Four  */
+
+.elem-a{
+    padding: 10px;
+    background-color: rgb(221, 204, 204);
+    height: 20rem;
+}
+
+.parent-c{
+    margin: 10px;
+}
+
+/* new one  */
+
+
+
+
+.container  .row{
+   background-color:rgb(221, 204, 204);
+   height: 10rem;
+}
+
+
+/* again new line */
+
+.parent-e{
+    margin: 10px;
+}
+
+
+/* again started new section  */
+
+.companies .container .row{
+    background-color: #fff;
+    margin-top:10rem ;
+}
+
+.companies img{
+    size: 50px;
+}
+
+/* <!-- lets start to building footer of website --> */
+
+footer{
+    background-color: rgba(99, 99, 187, 0.603);
+    padding:5px 0px 0px 0px ;
+}
+
+/* new onw linw */
+
+footer .row a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .row li{
+   list-style: none;
+}       
