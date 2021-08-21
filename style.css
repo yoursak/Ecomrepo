@@ -3,18 +3,20 @@
 }
 
 body{
-  background-color: rgb(255, 255, 255); 
+  background-color: rgb(238, 239, 248); 
 }
 
 .perent{
     /* padding-top: 2%; */
     background-color: rgb(160, 186, 216);
+   
 }
 
 .child-a{
 
     display: inline-flex;
     padding: 10px;
+    
 }
 
 img{
@@ -159,7 +161,7 @@ h6{
 
 .elem-a{
     padding: 10px;
-    background-color: rgb(221, 204, 204);
+    background-color: #fff;
     height: 20rem;
 }
 
@@ -172,11 +174,16 @@ h6{
 
 
 
-.container  .row{
-   background-color:rgb(221, 204, 204);
+.newone .container  .row{
+   background-color:#fff;
    height: 10rem;
 }
 
+
+.companies .container  .row{
+    height: 10rem;
+ }
+ 
 
 /* again new line */
 
@@ -188,7 +195,6 @@ h6{
 /* again started new section  */
 
 .companies .container .row{
-    background-color: #fff;
     margin-top:10rem ;
 }
 
@@ -199,17 +205,74 @@ h6{
 /* <!-- lets start to building footer of website --> */
 
 footer{
-    background-color: rgba(99, 99, 187, 0.603);
-    padding:5px 0px 0px 0px ;
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(152, 111, 168);
+  color: white;
+  text-align: center;
 }
 
-/* new onw linw */
 
-footer .row a{
+/* icon designing */
+
+.icon1{
+    display: inline-flex;
+    padding: 3rem 1rem 1rem 1rem;
+    font-size: x-large;
+}
+
+.menu li{
+    display: inline-flex;
+    margin: 1rem;   
+}
+
+.menu li a{
     text-decoration: none;
     color: #fff;
 }
 
-.footer .row li{
-   list-style: none;
-}       
+.copyright{
+    background-color:rgb(73, 31, 90) ;
+}
+
+/* Banners Styling */
+
+.Account{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+   
+}
+.s-btn{
+    display: inline-flex;
+    background-color: rgb(99, 209, 85);
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.s-btn a{
+    text-decoration: none;
+    color: rgb(20, 17, 14);
+    padding: 5px;
+}
+
+.ad img{
+    height: 100%;
+    width: 100%;
+}
+
+.creditcard img{
+    height: 100%;
+    width: 100%;
+}
+
+.col-3 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
