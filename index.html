@@ -1,96 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet"> 
-    <title>Mywebsite</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+  
+  <title>Mywebsite</title>
 </head>
+
 <body>
-    <div class="perent">
-        <div class="child-a">
-            <div class="logo">
-                <img src="image/logos.png" alt="">
-            </div>
-            <div class="s0-bar">
-                <select name="product" id="sele-pro">
-                   <option id="h-op" class="ctgr" style="background-color: rgb(86, 99, 71);">Category</option>
-                   <option><a href="#" title="">Deals</a></option>
-                   <option><a href="#" title="">Fashion</a></option>
-                   <option><a href="#" title="">Pantry</a></option>
-                   <option><a href="#" title="">Baby</a></option>
-                   <option><a href="#" title="">Beuty</a></option>
-                   <option><a href="#" title="">Clothing & Accessories</a></option>
-                   <option><a href="#" title="">Shoes Store</a></option>
-                   <option><a href="#" title="">Watch Store</a></option>
-                   <option><a href="#" title="">Goggle & Sunglass Store</a></option>
-                   <option><a href="#" title="">Luggage & bag Store</a></option>
-                   <option><a href="#" title="">Sports, Fitness & Outdoors</a></option>
-                   <option><a href="#" title="">Grocery & Gourmet Foods</a></option>
-                   <option><a href="#" title="">Book Store</a></option>
-                   <option><a href="#" title="">My Stationary</a></option>
-                   <option><a href="#" title="">Furniture Story</a></option>
-                   <option><a href="#" title="">Garden & Outdoors</a></option>
-                   <option><a href="#" title="">Health & Personal Care</a></option>
-                   <option><a href="#" title="">Home Decoration & Kitchens</a></option>
-                   <option><a href="#" title="">Toy Store</a></option>
-                   <option><a href="#" title="">Appliance</a></option>
-                   <option><a href="#" title="">App & Game Store</a></option>
-                   <option><a href="#" title="">Computer & Acccessories</a></option>
-                   <option><a href="#" title="">Electronics</a></option>
-                   <option><a href="#" title="">Software Store</a></option>
-                   <option><a href="#" title="">Gift Card</a></option>
-                   <option><a href="#" title="">Jewellery</a></option>
-                   <option><a href="#" title="">Luxury Beuty</a></option>
-                   <option><a href="#" title="">Musical Instruments</a></option>
-                   <option><a href="#" title="">Car & Motorbike Store</a></option>
-                </select>
-                <input type="text" name="search-bar" placeholder="Search....">
-                <button><i class="fas fa-search"></i></button>
-            </div>
-            
-            <div class="acc">
 
-                <h3>Hello !</h3>
-                <h3><a href="#">Sign Up</a></h3>
+  <div class="main" id="sidebarmenu">
+    <div class="closebtn" onclick="closebar()" id="closebarbtn">
+      <div class="ic"> <i class="fas fa-times"></i></div>
+    </div>
+    <ul>
+      <li><a href="#">Menu Name</a></li>
+      <li><a href="#">Menu Name</a></li>
+      <li><a href="#">Menu Name</a></li>
+      <li><a href="#">Menu Name</a></li>
+      <li><a href="#">Menu Name</a></li>
+      <li><a href="#">Menu Name</a></li>
+      <li><a href="#">Menu Name</a></li>
+      <li><a href="#">Menu Name</a></li>
+    </ul>
+  </div>
 
-            </div>
+  <div class="perent" id="maindiv">
 
-            <div class="order">
-                <i class="fas fa-shopping-bag" id="shop"></i>
-                <h3><a href="#">Orders</a></h3>
-            </div>
+    <div class="child-a">
+      <div class="logo">
+        <img src="image/logos.png" alt="">
+      </div>
+      <div class="s0-bar">
+        <select name="product" id="sele-pro">
+          <option id="h-op" class="ctgr" style="background-color: rgb(86, 99, 71);">Category</option>
+          <option><a href="#" title="">Deals</a></option>
+          <option><a href="#" title="">Fashion</a></option>
+          <option><a href="#" title="">Pantry</a></option>
+          <option><a href="#" title="">Baby</a></option>
+          <option><a href="#" title="">Beuty</a></option>
+          <option><a href="#" title="">Clothing & Accessories</a></option>
+          <option><a href="#" title="">Shoes Store</a></option>
+          <option><a href="#" title="">Watch Store</a></option>
+          <option><a href="#" title="">Goggle & Sunglass Store</a></option>
+          <option><a href="#" title="">Luggage & bag Store</a></option>
+          <option><a href="#" title="">Sports, Fitness & Outdoors</a></option>
+          <option><a href="#" title="">Grocery & Gourmet Foods</a></option>
+          <option><a href="#" title="">Book Store</a></option>
+          <option><a href="#" title="">My Stationary</a></option>
+          <option><a href="#" title="">Furniture Story</a></option>
+          <option><a href="#" title="">Garden & Outdoors</a></option>
+          <option><a href="#" title="">Health & Personal Care</a></option>
+          <option><a href="#" title="">Home Decoration & Kitchens</a></option>
+          <option><a href="#" title="">Toy Store</a></option>
+          <option><a href="#" title="">Appliance</a></option>
+          <option><a href="#" title="">App & Game Store</a></option>
+          <option><a href="#" title="">Computer & Acccessories</a></option>
+          <option><a href="#" title="">Electronics</a></option>
+          <option><a href="#" title="">Software Store</a></option>
+          <option><a href="#" title="">Gift Card</a></option>
+          <option><a href="#" title="">Jewellery</a></option>
+          <option><a href="#" title="">Luxury Beuty</a></option>
+          <option><a href="#" title="">Musical Instruments</a></option>
+          <option><a href="#" title="">Car & Motorbike Store</a></option>
+        </select>
+        <input type="text" name="search-bar" placeholder="Search....">
+        <button><i class="fas fa-search"></i></button>
+      </div>
 
-            <div class="Cart">
-                <i class="fas fa-shopping-cart" id="cart-i" ></i> 
-                <h5><a href="#">Cart</a></h5>
-            </div>
-        </div>
+      <div class="acc">
 
+        <h3>Hello !</h3>
+        <h3><a href="#">Sign Up</a></h3>
 
-        <div class="child-a1">
-          <div class="row">
-            <div class="col-1"><a href="#"><i class="fa fa-bars" aria-hidden="true" id="nav-b"></i>
-              <h6>All</h6></a></div>
-            <div class="col-1"><a href="#"><h6>Best Sellar</h6></a></div>
-            <div class="col-1"><a href="#"><h6>Mobile</h6></a></div>
-            <div class="col-1"><a href="#"><h6>Fashion</h6></a></div>
-            <div class="col-1"><a href="#"><h6>Services</h6></a></div>
-            <div class="col-1"><a href="#"><h6>New</h6></a></div>
-            <div class="col-1"><a href="#"><h6>Computer</h6></a></div>
-          </div>
-        </div>
+      </div>
+
+      <div class="order">
+        <i class="fas fa-shopping-bag" id="shop"></i>
+        <h3><a href="#">Orders</a></h3>
+      </div>
+
+      <div class="Cart">
+        <i class="fas fa-shopping-cart" id="cart-i"></i>
+        <h5><a href="#">Cart</a></h5>
+      </div>
     </div>
 
-   <div class="slideshow">
+    <div class="child-a1">
+      <div class="row">
+        <div class="col-1" onclick="openbar()" id="openbarbtn">
+          <i class="fa fa-bars" aria-hidden="true" id="nav-b"></i>
+          <h6>All</h6>
+        </div>
+        </label>
+        <div class="col-1"><a href="#">
+            <h6>Best Sellar</h6>
+          </a></div>
+        <div class="col-1"><a href="#">
+            <h6>Mobile</h6>
+          </a></div>
+        <div class="col-1"><a href="#">
+            <h6>Fashion</h6>
+          </a></div>
+        <div class="col-1"><a href="#">
+            <h6>Services</h6>
+          </a></div>
+        <div class="col-1"><a href="#">
+            <h6>New</h6>
+          </a></div>
+        <div class="col-1"><a href="#">
+            <h6>Computer</h6>
+          </a></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="slideshow" id="slider">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -125,12 +166,12 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-   </div>
+  </div>
 
 
-   <!-- New Swction Divided From Here -->
+  <!-- New Swction Divided From Here -->
 
-   <div class="parent-c">
+  <div class="parent-c">
     <div class="cotainer a">
       <div class="row b">
 
@@ -150,13 +191,15 @@
           <div class="elem-a">
             <h1>Styles for Women | Up to 70% off</h1>
           </div>
-        </div> 
+        </div>
 
         <div class="col-3 newdiv">
           <div class="elem-b">
             <div class="Account">
               <h1>Sign in Account</h1>
-              <div class="s-btn"><h3><a href="#">Sign In</a></h3></div>
+              <div class="s-btn">
+                <h3><a href="#">Sign In</a></h3>
+              </div>
             </div>
 
             <div class="ad">
@@ -167,85 +210,85 @@
 
       </div>
     </div>
-   </div>
+  </div>
 
-   <!-- again started new section -->
+  <!-- again started new section -->
 
 
-     <div class="newone">
-      <div class="container">
-        <div class="row">
-          <div class="col-12"></div>
-        </div>
+  <div class="newone">
+    <div class="container">
+      <div class="row">
+        <div class="col-12"></div>
       </div>
-     </div>
+    </div>
+  </div>
 
 
-     <div class="parent-e">
- 
-        <div class="cotainer a">
-          <div class="row b">
-    
-            <div class="col-3 c">
-              <div class="elem-a">
-                <h1>Top rated, premium quality | Amazon Brands & more</h1>
-              </div>
-            </div>
-    
-            <div class="col-3 c">
-              <div class="elem-a">
-                <h1>Automotive essentials | Up to 60% off</h1>
-              </div>
-            </div>
-    
-            <div class="col-3 c">
-              <div class="elem-a">
-                <h1>Professional tools, testing & more</h1>
-              </div>
-            </div> 
-    
-            <div class="col-3 c">
-              <div class="elem-a">
-                <div class="creditcard">
-                  <h1>Pay your credit card bills on Amazon</h1>
-                  <img src="image/creditcard.jpg" alt="">
-                </div>
-              </div>
-            </div>
-    
+  <div class="parent-e">
+
+    <div class="cotainer a">
+      <div class="row b">
+
+        <div class="col-3 c">
+          <div class="elem-a">
+            <h1>Top rated, premium quality | Amazon Brands & more</h1>
           </div>
         </div>
-       </div>
-   <!-- again started new section -->
 
-   <div class="companies">
-      <div class="container">
-        <div class="row">
-          <div class="col-2"><img src="image/brands (1).jpg" alt=""></div>
-          <div class="col-2"><img src="image/brands (1).png" alt=""></div>
-          <div class="col-2"><img src="image/brands (1).webp" alt=""></div>
-          <div class="col-2"><img src="image/brands (2).jpg" alt=""></div>
-          <div class="col-2"><img src="image/brands (2).png" alt=""></div>
-          <div class="col-2"><img src="image/brands (3).png" alt=""></div>
+        <div class="col-3 c">
+          <div class="elem-a">
+            <h1>Automotive essentials | Up to 60% off</h1>
+          </div>
         </div>
+
+        <div class="col-3 c">
+          <div class="elem-a">
+            <h1>Professional tools, testing & more</h1>
+          </div>
+        </div>
+
+        <div class="col-3 c">
+          <div class="elem-a">
+            <div class="creditcard">
+              <h1>Pay your credit card bills on Amazon</h1>
+              <img src="image/creditcard.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
       </div>
-   </div>
+    </div>
+  </div>
+  <!-- again started new section -->
 
-
-
-   <!-- lets start to building footer of website -->
-
-   <footer>
-    <div class="sociaqlweb"></div>
+  <div class="companies">
+    <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="icon1"><i class="fab fa-facebook"></i></div>
-          <div class="icon1"><i class="fab fa-twitter"></i></div>
-          <div class="icon1"><i class="fab fa-instagram"></i></div>
-          <div class="icon1"><i class="fab fa-linkedin"></i></div>
-          <div class="icon1"><i class="fab fa-github"></i></div>
-        </div>
+        <div class="col-2"><img src="image/brands (1).jpg" alt=""></div>
+        <div class="col-2"><img src="image/brands (1).png" alt=""></div>
+        <div class="col-2"><img src="image/brands (1).webp" alt=""></div>
+        <div class="col-2"><img src="image/brands (2).jpg" alt=""></div>
+        <div class="col-2"><img src="image/brands (2).png" alt=""></div>
+        <div class="col-2"><img src="image/brands (3).png" alt=""></div>
       </div>
+    </div>
+  </div>
+
+
+
+  <!-- lets start to building footer of website -->
+
+  <footer>
+    <div class="sociaqlweb"></div>
+    <div class="row">
+      <div class="col-12">
+        <div class="icon1"><i class="fab fa-facebook"></i></div>
+        <div class="icon1"><i class="fab fa-twitter"></i></div>
+        <div class="icon1"><i class="fab fa-instagram"></i></div>
+        <div class="icon1"><i class="fab fa-linkedin"></i></div>
+        <div class="icon1"><i class="fab fa-github"></i></div>
+      </div>
+    </div>
     </div>
 
     <div class="menu">
@@ -253,7 +296,9 @@
         <div class="col-12">
           <ul>
             <li><a href="#">Home</a></li>
-            <li><p><a href="mailto:amansahu2333924@gmail.com">Contact</a></p></li>
+            <li>
+              <p><a href="mailto:amansahu2333924@gmail.com">Contact</a></p>
+            </li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Brands</a></li>
           </ul>
@@ -267,9 +312,28 @@
           </div>
         </div>
       </div>
-      </div>
+    </div>
 
 
   </footer>
+
+
+
+
+  <script>
+    function openbar() {
+
+      document.getElementById("sidebarmenu").style.transform = "translateX(0px)"
+      document.getElementById("maindiv").style.transform = "translateX(200px)"
+      document.getElementById("slider").style.transform = "translateX(200px)"
+    }
+
+    function closebar() {
+      document.getElementById("sidebarmenu").style.transform = "translateX(-200px)"
+      document.getElementById("maindiv").style.transform = "translateX(0px)"
+      document.getElementById("slider").style.transform = "translateX(0px)"
+    }
+  </script>
 </body>
+
 </html>

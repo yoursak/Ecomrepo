@@ -9,6 +9,7 @@ body{
 .perent{
     /* padding-top: 2%; */
     background-color: rgb(160, 186, 216);
+    transition: 0.5s;
    
 }
 
@@ -155,6 +156,7 @@ h6{
 .slideshow{
     width: 80%;
     margin: 2% 10% 2% 10%;
+    transition: 0.5s;
 }
 
    /* Section Four  */
@@ -276,3 +278,51 @@ footer{
     font-size: larger;
 }
 
+/* Side bar menu styling */
+
+
+
+label{
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.main{
+    background-color: blue;
+    height: 100vh;
+    width: 200px;
+    transform: translateX(-200px);
+    position: fixed;
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.main li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.main ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+.ic{
+    display: flex;
+    justify-content: end;
+}
+
+.ic i{
+    padding: 5px;
+    cursor: pointer;
+}
+/* ------------------------------------------ */
